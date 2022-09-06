@@ -38,6 +38,7 @@ def f2(n):
 
 # 先生成1到n得顺序序列
 # 将第i个数字与前面随机一个数字对调
+# O(n)
 def f3(n):
     arr = [i+1 for i in range(n)]
     for index in range(n):
